@@ -16,6 +16,7 @@ alias dk="docker"
 alias dkse="docker search"
 alias tm="tmux"
 alias ls="lsd"
+alias l.="lsd -a"
 alias cz=chezmoi
 alias czdf="chezmoi diff"
 alias czap="chezmoi apply"

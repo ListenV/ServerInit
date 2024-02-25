@@ -100,12 +100,15 @@ opt.laststatus = 3
 opt.updatetime = 300          -- 刷新交换文件所需的毫秒数(默认4000ms)
 opt.timeoutlen = 500          -- 键盘连击等待时间 500 ms
 
-opt.splitkeep = "screen"
 opt.splitbelow = true         -- split window 从下边和右边出现
 opt.splitright = true
 
 opt.clipboard = "unnamedplus" -- 使用系统剪切板
 
+if vim.fn.has("nvim-0.8") == 1 then
+  opt.splitkeep = "screen"
+end
+
 if vim.fn.has("nvim-0.10") == 1 then
-    opt.smoothscroll = true
+  opt.smoothscroll = true
 end

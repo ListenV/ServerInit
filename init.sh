@@ -17,3 +17,5 @@ mkdir -p ${USER_HOME}/.config/fish/conf.d
 wget -O ${USER_HOME}/.config/fish/conf.d/alias.fish ${REPO}/shell/alias.sh
 
 (curl -fsSL ${REPO}/shell/alias.sh) >> ${USER_HOME}/.bashrc
+
+# 修改ssh端口，避免爆破

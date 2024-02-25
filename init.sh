@@ -1,3 +1,5 @@
+set -e
+
 REPO=https://raw.githubusercontent.com/ListenV/ServerInit/main
 
 wget -P /root/.config/tmux ${REPO}/tmux/tmux.conf

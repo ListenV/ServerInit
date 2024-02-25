@@ -6,7 +6,6 @@ alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias df='df -h'
-# 创建嵌套目录
 alias mkdir='mkdir -p'
 alias :q='exit'
 alias r="ranger"

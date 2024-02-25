@@ -7,5 +7,8 @@
 执行方法：
 
 ```bash
+curl -fsSL https://raw.githubusercontent.com/ListenV/ServerInit/main/init.sh | bash
+
+# 暂时无法在cloud-init中执行
 bash <(curl -fsSL https://raw.githubusercontent.com/ListenV/ServerInit/main/init.sh)
 ```

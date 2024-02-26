@@ -1,13 +1,13 @@
 # aliases config
 alias s="sudo"
 alias c="clear"
+alias q='exit'
 alias ..='cd ..'
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias df='df -h'
 alias mkdir='mkdir -p'
-alias :q='exit'
 alias r="ranger"
 alias ht="htop"
 alias vi="nvim"

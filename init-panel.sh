@@ -16,8 +16,8 @@ chown www-data /srv/sspanel -R
 
 cd /srv/sspanel
 wget https://getcomposer.org/installer -O composer.phar
-php composer.phar
-php composer.phar install --no-dev
+sudo -u www-data php composer.phar
+sudo -u www-data php composer.phar install --no-dev
 
 # 改配置
 cp config/.config.example.php config/.config.php

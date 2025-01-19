@@ -83,9 +83,6 @@ map("v", ">", ">gv", {desc = 'indent to right'})
 map("v", "K", ":move '<-2<CR>gv-gv", {desc = 'Move selected text to top'})
 map("v", "J", ":move '>+1<CR>gv-gv", {desc = 'Move selected text to bottom'})
 
--- 在visual mode 里粘贴不要复制
-map("v", "p", '"_dP')
-
 -- insert 模式下，跳到行首行尾
 -- map("i", "<C-h>", "<ESC>I")
 -- map("i", "<C-l>", "<ESC>A")
@@ -101,25 +98,16 @@ map("v", "p", '"_dP')
 --map("n", "sc", "<C-w>c", opt)
 ---- 关闭其他
 --map("n", "so", "<C-w>o", opt) -- close others
--- alt + hjkl  窗口之间跳转
+-- ctrl + hjkl  窗口之间跳转
 map("n", "<C-h>", "<C-w>h", {desc = 'Window left'})
 map("n", "<C-j>", "<C-w>j", {desc = 'Window down'})
 map("n", "<C-k>", "<C-w>k", {desc = 'Window up'})
 map("n", "<C-l>", "<C-w>l", {desc = 'Window right'})
--- <leader> + hjkl 窗口之间跳转
-map("n", "<leader>h", "<C-w>h")
-map("n", "<leader>j", "<C-w>j")
-map("n", "<leader>k", "<C-w>k")
-map("n", "<leader>l", "<C-w>l")
 
 -- 左右比例控制
 map("n", "<C-Left>", "<Cmd>vertical resize -2<CR>")
 map("n", "<C-Right>", "<Cmd>vertical resize +2<CR>")
---map("n", "s,", ":vertical resize -10<CR>")
---map("n", "s.", ":vertical resize +10<CR>")
 -- 上下比例
---map("n", "sj", ":resize +10<CR>")
---map("n", "sk", ":resize -10<CR>")
 map("n", "<C-Down>", "<Cmd>resize +2<CR>")
 map("n", "<C-Up>", "<Cmd>resize -2<CR>")
 -- 相等比例

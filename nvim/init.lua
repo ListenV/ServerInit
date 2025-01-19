@@ -1,5 +1,5 @@
 -- 基础配置
-require("basic")
+require("option")
 -- 基础快捷键映射
 require("keymap")
 -- 自动命令

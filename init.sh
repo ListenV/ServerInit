@@ -9,7 +9,7 @@ wget -P ${USER_HOME}/.config/tmux ${REPO}/tmux/tmux.conf
 wget -P ${USER_HOME}/.config/tmux ${REPO}/tmux/powerline.conf
 
 wget -P ${USER_HOME}/.config/nvim ${REPO}/nvim/init.lua
-wget -P ${USER_HOME}/.config/nvim/lua ${REPO}/nvim/lua/basic.lua
+wget -P ${USER_HOME}/.config/nvim/lua ${REPO}/nvim/lua/option.lua
 wget -P ${USER_HOME}/.config/nvim/lua ${REPO}/nvim/lua/keymap.lua
 wget -P ${USER_HOME}/.config/nvim/lua ${REPO}/nvim/lua/autocmd.lua
 

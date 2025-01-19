@@ -12,3 +12,7 @@ curl -fsSL https://raw.githubusercontent.com/ListenV/ServerInit/main/init.sh | b
 # 暂时无法在cloud-init中执行
 bash <(curl -fsSL https://raw.githubusercontent.com/ListenV/ServerInit/main/init.sh)
 ```
+
+## 其他
+
+`init-pc.sh` 个人电脑使用

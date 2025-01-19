@@ -16,3 +16,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/ListenV/ServerInit/main/init
 ## 其他
 
 `init-pc.sh` 个人电脑使用
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/ListenV/ServerInit/main/init-pc.sh | bash
+```

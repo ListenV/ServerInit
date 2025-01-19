@@ -20,3 +20,9 @@ bash <(curl -fsSL https://raw.githubusercontent.com/ListenV/ServerInit/main/init
 ```bash
 curl -fsSL https://raw.githubusercontent.com/ListenV/ServerInit/main/init-pc.sh | bash
 ```
+
+或者用代理：
+
+```bash
+curl -fsSL https://ghfast.top/https://raw.githubusercontent.com/ListenV/ServerInit/main/init-pc.sh | bash
+```

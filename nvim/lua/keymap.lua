@@ -1,27 +1,7 @@
--- Modes
---   '': Normal, Visual, Select, Operator-pending
---   n: Normal
---   v: Visual and Select 
---   s: Select
---   x: Visual
---   i: Insert
---   o: Operator-pending (dc)
---   '!': Insert and Command-line
---   l: Insert, Command-line, Lang-Arg
---   t: Terminal
---   c: Command-line
-
--- leader key 为空
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
 local map = vim.keymap.set
-
--- 第一个参数：（n, i, v, c）代表vim所处的四种模式 Normal、Insert、Visual、Command
--- 第二个参数：代表要设置的快捷键
--- 第三个参数：代表实际的按键
--- 第四个参数：opts 可选参数
--- 参考：https://neovim.io/doc/user/lua-guide.html#lua-guide-mappings
 
 ------------------------------------------------------------------------------
 -- 基础按键映射

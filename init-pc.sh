@@ -80,25 +80,9 @@ opensuse-tumbleweed)
   ;;
 esac
 
-#### 设置root基础配置文件 ####
-ROOT_HOME=/root
-REPO=https://ghfast.top/https://raw.githubusercontent.com/ListenV/ServerInit/main
+echo change packageStorage complete!
+echo
+echo configrate root...
+echo
 
-# neovim config
-rm -rf ${ROOT_HOME}/.config/nvim
-wget -P ${ROOT_HOME}/.config/nvim ${REPO}/nvim/init.lua
-wget -P ${ROOT_HOME}/.config/nvim/lua ${REPO}/nvim/lua/option.lua
-wget -P ${ROOT_HOME}/.config/nvim/lua ${REPO}/nvim/lua/keymap.lua
-wget -P ${ROOT_HOME}/.config/nvim/lua ${REPO}/nvim/lua/autocmd.lua
-
-# tmux
-rm -rf ${ROOT_HOME}/.config/tmux
-wget -P ${ROOT_HOME}/.config/tmux ${REPO}/tmux/tmux.conf
-wget -P ${ROOT_HOME}/.config/tmux ${REPO}/tmux/powerline.conf
-
-# shell alias
-mkdir -p ${ROOT_HOME}/.config/fish/conf.d
-wget -O ${ROOT_HOME}/.config/fish/conf.d/alias.fish ${REPO}/shell/alias.sh
-(curl -fsSL ${REPO}/shell/alias.sh) >> ${ROOT_HOME}/.bashrc
-
-# yazi
+bash <(curl -fsSL https://ghfast.top/https://raw.githubusercontent.com/ListenV/ServerInit/main/init-server.sh)
